@@ -1,0 +1,6 @@
+chunk_size: 10000
+core_count: 24
+processed_chunks_dir: ./processed_chunks
+rewrite_sys_prompt: True
+script_version: DMKv3.5
+sys_prompt_min_token_length: 50

@@ -1,0 +1,21 @@
+key_name: conversations
+tokenizer_used: NousResearch/Meta-Llama-3-70B-Instruct
+acceptable_languages:
+- en
+
+filtered_data:
+- function-call
+- function-response
+- assistant
+
+datasets: #examples
+#General Intellegence & instruct
+- name: jondurbin/airoboros-3.2 #medium
+  phrase_list_key: 1
+  use_percentage: 100
+- name: LLM-Experiments/Steel-Med #small
+  phrase_list_key: 1
+  use_percentage: 100
+- name: mpasila/no-robots-sharegpt-edit #medium
+  phrase_list_key: 1
+  use_percentage: 100
